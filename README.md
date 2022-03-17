@@ -1,11 +1,12 @@
-Homework 2
-==========
+Homework instructions
+=====================
 
 Each student will submit their HW through their own repo (GitHub
 classroom). Homework is implemented in R Markdown documents, rendered to
 HTML, and pushed to GitHub. Students can commit as many times as needed.
 A basic auto-grading system is implemented in the HW’s markdown file for
-quick feedback.
+quick feedback. Please find additional instructions below or in the
+relevant file associated with this HW.
 
 Quick feedback
 --------------
