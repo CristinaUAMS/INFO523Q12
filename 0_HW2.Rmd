@@ -4,7 +4,7 @@ subtitle: 'INFO 523'
 author:
 - name: Student -  [Your name]
   affiliation: [Your affiliation]
-- name: Instructor -  Cristian Roman-Palacios
+- name: Instructor -  Cristian Román-Palacios
   affiliation: School of Information, University of Arizona, Tucson, AZ
 tags: [R, RStudio, HW2]
 output: html_document
@@ -138,7 +138,7 @@ q5 <- NULL #Your final answer
 
 #### Question 6
 
-Write an R expression that will return the positions of 3 and 7 in the vector `x <- c(2, 3, 8, 2, 74, 1, 9, 9, 3, 2, 1)`
+Write an R expression that will return the positions of 3 and 7 in the vector `x <- c(2, 3, 8, 2, 7, 1, 9, 9, 3, 2, 7)`
 
 
 ```{r}
@@ -182,7 +182,7 @@ q9 <- NULL #Your final answer
 
 #### Question 10
 
-The following vector represents the number of vacation days possessed by various individuals
+The following vector represents the number of vacation days possessed by various individuals. Each element in the vector corresponds to an individual.
 
 ```{r}
 vd <- c(5, 7, 20, 1, 0, 0, 12, 4, 2, 2, 2, 4, 5, 6, 7, 10, 4)
@@ -192,7 +192,7 @@ Answer the following questions by storing your response in a named list with onl
 
 - How many individuals are represented in the vector? (name in list=`totalInd`)
 - How many vacation days total? (name in list=`totalVd`)
-- How many individuals have four or less vacation days left? (name in list=`less4Vd`)
+- How many individuals have four or less vacation days? (name in list=`less4Vd`)
 
 ```{r}
 # BEGIN SOLUTION
@@ -213,12 +213,13 @@ q11.2 <- NULL ##Your final answer
 ```
 
 
-#### Question 11
+#### Question 12
 
 The points below relate to the GitHub component reviewed this week. Please follow the instructions outlined below (in order) and list the relevant links also in this file:
 
-1. Clone the following repo (locally): https://github.com/rstudio/Intro
-2. Create a new public repo (with any name) in your GitHub account. Push the same contents as in the original repo to your new repo. List the link to the repo in `q11.2`.
+1. Download and unzip the following repo: https://github.com/rstudio/Intro/archive/refs/heads/master.zip
+
+2. Create a new public repo (with any name) using your GitHub account. Push the unzipped files from Q12.1 to your new repo. List the link to the repo in `q11.2`.
 
 ```{r}
 # BEGIN SOLUTION
@@ -226,7 +227,7 @@ q12.2 <- NULL ##paste your link here (as a string)
 # END SOLUTION
 ```
 
-3. Create a new organization associated with your account (e.g. `firstname_DM523`). Below (`q12.3`), list the link to the organization.
+3. Create a new organization associated with your account (e.g. `firstname-DM523`). Assume that this organization is one of your collaborators. Below (`q12.3`), list the link to the organization.
 
 ```{r}
 # BEGIN SOLUTION
@@ -280,8 +281,8 @@ save.image(here("tests", "answers_WS.RData"))
 cat("Updated:", format(Sys.time(),usetz = TRUE))
 ```
 
-```{r message=FALSE, warning=FALSE, include=FALSE, results='hide'}
-render("README.Rmd")
+```{r echo= FALSE, message=FALSE, warning=FALSE, include=FALSE, results='hide'}
+render("README.Rmd", quiet = T)
 ```
 
 

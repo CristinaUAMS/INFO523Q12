@@ -1,29 +1,24 @@
-Homework instructions
-=====================
+# td;lr
 
-Each student will submit their HW through their own repo (GitHub
-classroom). Homework is implemented in R Markdown documents, rendered to
-HTML, and pushed to GitHub. Students can commit as many times as needed.
-A basic auto-grading system is implemented in the HW’s markdown file for
-quick feedback. Please find additional instructions below or in the
-relevant file associated with this HW.
+Instructions below are also in included in `0_HW2.Rmd`. Please answer
+the questions in `0_HW2.Rmd` and use the basic autograding system
+implemented in the same rmarkdown file as a reference.
 
-Quick feedback
---------------
+## Quick feedback
 
 The following “feedback” will update each time you render your homework.
 
-    ❌ Question 1 - Incorrect
-    ❌ Question 2 - Incorrect
-    ❌ Question 3 - Incorrect
-    ❌ Question 4 - Incorrect
-    ❌ Question 5 - Incorrect
-    ❌ Question 6 - Incorrect
-    ❌ Question 7 - Incorrect
-    ❌ Question 8 - Incorrect
-    ❌ Question 9 - Incorrect
-    ❌ Question 10 - Incorrect
-    ❌ Question 11 - Incorrect
+    ❌ Question 1 - Potentially incorrect
+    ❌ Question 2 - Potentially incorrect
+    ❌ Question 3 - Potentially incorrect
+    ❌ Question 4 - Potentially incorrect
+    ❌ Question 5 - Potentially incorrect
+    ❌ Question 6 - Potentially incorrect
+    ❌ Question 7 - Potentially incorrect
+    ❌ Question 8 - Potentially incorrect
+    ❌ Question 9 - Potentially incorrect
+    ❌ Question 10 - Potentially incorrect
+    ❌ Question 11 - Potentially incorrect
     ❌ Question 12 - Provide a link
     ❌ Question 13 - Provide a link
     ❌ Question 14 - Provide a link
@@ -34,7 +29,7 @@ The following “feedback” will update each time you render your homework.
 
        ⌛ Auto-grade 0 %,  0 / 10 points
 
-    Updated: 2022-03-19 17:59:12 MST
+    Updated: 2022-03-20 21:17:32 MST
 
 ### Objectives
 
@@ -45,8 +40,7 @@ the provided materials.
 
 ------------------------------------------------------------------------
 
-Additional files related to this HW
------------------------------------
+## Additional files related to this HW
 
 In `D2L`, you will find the following additional files associated to
 this homework:
@@ -62,19 +56,19 @@ this homework:
 
 -   **R Markdown**: Please review the basic R Markdown cheat sheet in
     case you have any questions regarding formatting the HW:
-    <a href="https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf" class="uri">https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf</a>.
+    <https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf>.
 
 -   **R**: Please review the basic `R` cheat sheet in case you have any
     questions regarding the programming language:
-    <a href="https://www.soa.org/globalassets/assets/Files/Edu/2018/exam-pa-base-r.pdf" class="uri">https://www.soa.org/globalassets/assets/Files/Edu/2018/exam-pa-base-r.pdf</a>.
+    <https://www.soa.org/globalassets/assets/Files/Edu/2018/exam-pa-base-r.pdf>.
 
 -   **RStudio**: Additional cheat sheets written by RStudio to help with
     specific R packages:
-    <a href="https://www.rstudio.com/resources/cheatsheets/" class="uri">https://www.rstudio.com/resources/cheatsheets/</a>
+    <https://www.rstudio.com/resources/cheatsheets/>
 
 -   **Datasets**: The following website has access to the relevant
     datasets from the recommended textbook:
-    <a href="https://book.huihoo.com/introduction-to-statistical-learning/data.html" class="uri">https://book.huihoo.com/introduction-to-statistical-learning/data.html</a>
+    <https://book.huihoo.com/introduction-to-statistical-learning/data.html>
 
 ### Scores and grading policies
 
@@ -98,15 +92,14 @@ questions or (3) having issues submitting your assignment. Note that
 late submissions are subject to a penalty (see late work policies in the
 Syllabus). By the deadline, you should turn in a a `RMD` file (this
 file) **and** a rendered `HTML` (hint: knit your `rmd`; link:
-<a href="https://rmarkdown.rstudio.com/lesson-9.html" class="uri">https://rmarkdown.rstudio.com/lesson-9.html</a>).
-Answers to each question should be in the relevant block of code (see
-below). The instructor won’t render your submission. **Re-name your file
-to `lastname_Hw1.RMD` before submitting to your repo**. Make sure that
-you can correctly render your submission without errors before turning
-anything in. If a given block of code is causing issues and you didn’t
-get to fix it, please use the in the relevant block and add comments.
-**This assignment must be submitted through our GitHub Classroom before
-the deadline.**
+<https://rmarkdown.rstudio.com/lesson-9.html>). Answers to each question
+should be in the relevant block of code (see below). The instructor
+won’t render your submission. **Re-name your file to `lastname_Hw1.RMD`
+before submitting to your repo**. Make sure that you can correctly
+render your submission without errors before turning anything in. If a
+given block of code is causing issues and you didn’t get to fix it,
+please use the in the relevant block and add comments. **This assignment
+must be submitted through our GitHub Classroom before the deadline.**
 
 ### Time commitment
 
@@ -128,9 +121,7 @@ your classmates will also be working on the same questions - reach out
 for help (check under the Discussion forum for folks looking to interact
 with other students in this class or start your own thread). Finally,
 the instructor will be happy to answer any questions during office
-hours. You can reach out to me by email
-(<a href="mailto:cromanpa94@arizona.edu" class="email">cromanpa94@arizona.edu</a>)
-or simply schedule a 15 minute meeting through **Calendly**
-(<a href="https://calendly.com/cromanpa/15min" class="uri">https://calendly.com/cromanpa/15min</a>).
-**Do not forget that the instructor holds office hours 3 times a
-week!!**
+hours. You can reach out to me by email (<cromanpa94@arizona.edu>) or
+simply schedule a 15 minute meeting through **Calendly**
+(<https://calendly.com/cromanpa/15min>). **Do not forget that the
+instructor holds office hours 3 times a week!!**
