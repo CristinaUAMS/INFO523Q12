@@ -1,10 +1,13 @@
-# td;lr
+td;lr
+=====
 
-Instructions below are also in included in `0_HW2.Rmd`. Please answer
-the questions in `0_HW2.Rmd` and use the basic autograding system
-implemented in the same rmarkdown file as a reference.
+Instructions in the `README` for repo are also in included in the header
+of `0_HW2.Rmd`. In short, answer the questions listed in `0_HW2.Rmd`.
+Use the basic autograding system implemented in the same rmarkdown file
+ONLY as a reference.
 
-## Quick feedback
+Quick feedback
+--------------
 
 The following “feedback” will update each time you render your homework.
 
@@ -29,7 +32,7 @@ The following “feedback” will update each time you render your homework.
 
        ⌛ Auto-grade 0 %,  0 / 10 points
 
-    Updated: 2022-03-20 21:17:32 MST
+    Updated: 2022-03-21 12:20:46 MST
 
 ### Objectives
 
@@ -40,7 +43,8 @@ the provided materials.
 
 ------------------------------------------------------------------------
 
-## Additional files related to this HW
+Additional files related to this HW
+-----------------------------------
 
 In `D2L`, you will find the following additional files associated to
 this homework:
@@ -56,19 +60,19 @@ this homework:
 
 -   **R Markdown**: Please review the basic R Markdown cheat sheet in
     case you have any questions regarding formatting the HW:
-    <https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf>.
+    <a href="https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf" class="uri">https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf</a>.
 
 -   **R**: Please review the basic `R` cheat sheet in case you have any
     questions regarding the programming language:
-    <https://www.soa.org/globalassets/assets/Files/Edu/2018/exam-pa-base-r.pdf>.
+    <a href="https://www.soa.org/globalassets/assets/Files/Edu/2018/exam-pa-base-r.pdf" class="uri">https://www.soa.org/globalassets/assets/Files/Edu/2018/exam-pa-base-r.pdf</a>.
 
 -   **RStudio**: Additional cheat sheets written by RStudio to help with
     specific R packages:
-    <https://www.rstudio.com/resources/cheatsheets/>
+    <a href="https://www.rstudio.com/resources/cheatsheets/" class="uri">https://www.rstudio.com/resources/cheatsheets/</a>
 
 -   **Datasets**: The following website has access to the relevant
     datasets from the recommended textbook:
-    <https://book.huihoo.com/introduction-to-statistical-learning/data.html>
+    <a href="https://book.huihoo.com/introduction-to-statistical-learning/data.html" class="uri">https://book.huihoo.com/introduction-to-statistical-learning/data.html</a>
 
 ### Scores and grading policies
 
@@ -92,14 +96,15 @@ questions or (3) having issues submitting your assignment. Note that
 late submissions are subject to a penalty (see late work policies in the
 Syllabus). By the deadline, you should turn in a a `RMD` file (this
 file) **and** a rendered `HTML` (hint: knit your `rmd`; link:
-<https://rmarkdown.rstudio.com/lesson-9.html>). Answers to each question
-should be in the relevant block of code (see below). The instructor
-won’t render your submission. **Re-name your file to `lastname_Hw1.RMD`
-before submitting to your repo**. Make sure that you can correctly
-render your submission without errors before turning anything in. If a
-given block of code is causing issues and you didn’t get to fix it,
-please use the in the relevant block and add comments. **This assignment
-must be submitted through our GitHub Classroom before the deadline.**
+<a href="https://rmarkdown.rstudio.com/lesson-9.html" class="uri">https://rmarkdown.rstudio.com/lesson-9.html</a>).
+Answers to each question should be in the relevant block of code (see
+below). The instructor won’t render your submission. **Re-name your file
+to `lastname_Hw1.RMD` before submitting to your repo**. Make sure that
+you can correctly render your submission without errors before turning
+anything in. If a given block of code is causing issues and you didn’t
+get to fix it, please use the in the relevant block and add comments.
+**This assignment must be submitted through our GitHub Classroom before
+the deadline.**
 
 ### Time commitment
 
@@ -121,7 +126,9 @@ your classmates will also be working on the same questions - reach out
 for help (check under the Discussion forum for folks looking to interact
 with other students in this class or start your own thread). Finally,
 the instructor will be happy to answer any questions during office
-hours. You can reach out to me by email (<cromanpa94@arizona.edu>) or
-simply schedule a 15 minute meeting through **Calendly**
-(<https://calendly.com/cromanpa/15min>). **Do not forget that the
-instructor holds office hours 3 times a week!!**
+hours. You can reach out to me by email
+(<a href="mailto:cromanpa94@arizona.edu" class="email">cromanpa94@arizona.edu</a>)
+or simply schedule a 15 minute meeting through **Calendly**
+(<a href="https://calendly.com/cromanpa/15min" class="uri">https://calendly.com/cromanpa/15min</a>).
+**Do not forget that the instructor holds office hours 3 times a
+week!!**
