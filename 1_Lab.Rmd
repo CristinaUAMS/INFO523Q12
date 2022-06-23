@@ -1,13 +1,13 @@
 ---
-title:  'Introduction to R'
-subtitle: 'ISTA 421/INFO 521'
+title:  'Brief introduction to R'
+subtitle: 'ISTA 421/INFO 521/ INFO 523'
 author:
 - name: Instructor -  Cristian Roman-Palacios
   affiliation: School of Information, University of Arizona, Tucson, AZ
 tags: [R, RStudio, Intro]
 abstract: |
   This introduction to R is designed for students interested in either get  a guided and well 
-  annotated immersion to R before getting started with the topics covered in INFO523. 
+  annotated immersion to R before getting started with the topics covered in ISTA 421/ INFO 521/ INFO523. 
   Students with mode advanced R skills can use this to practice their skills, improve the code, 
   or re-assess their knowledge on basic topics.
 output: html_document
