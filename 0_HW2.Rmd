@@ -34,8 +34,6 @@ In your repo, you will find the following additional files associated to this ho
 
 - **RStudio**: Additional cheat sheets written by RStudio to help with specific R packages: https://www.rstudio.com/resources/cheatsheets/
 
-- **Datasets**: The following website has access to the relevant datasets from the recommended textbook: https://book.huihoo.com/introduction-to-statistical-learning/data.html
-
 
 ### Scores and grading policies
 
@@ -65,7 +63,7 @@ Consider a vector:
 x <- c(3, 5.1, 3.2, 7, 2, 9, 4, 21)
 ```
 
-Create a logical vector indicating which elements are `<7`.
+Create a logical vector indicating which elements are `< 4`.
 
 ```{r}
 # BEGIN SOLUTION
@@ -100,10 +98,10 @@ q2 <- NULL #Your final answer - should produce the final table
 
 #### Question 3
 
-Use R to count the number of NAs in the following vector:
+Use R to count the number of `NA`s in the following vector:
 
 ```{r}
-c(34, 56, 55, 87, NA, 4, 77, NA, 21, NA, 39)
+c(34, 56, NA, 87, NA, 4, 77, NA, 21, NA, 39)
 ```
 
 
@@ -127,7 +125,7 @@ q4 <- NULL #Your final answer
 
 #### Question 5
 
-What will be the output for the R expression `(c(FALSE, TRUE)) || (c(TRUE, TRUE))`? Briefly explain the logic of your result.
+What will be the output for the R expression `(c(FALSE, TRUE)) || (c(TRUE, TRUE))`? Briefly explain the logic of your result. Please use the `?Logic` command in `R` to find information.
 
 ```{r}
 # BEGIN SOLUTION
@@ -137,7 +135,7 @@ q5 <- NULL #Your final answer
 
 #### Question 6
 
-Write an R expression that will return the positions of 3 and 7 in the vector `x <- c(2, 3, 8, 2, 7, 1, 9, 9, 3, 2, 7)`
+Write an `R` expression that will return the positions of 3 and 7 in the vector `x <- c(2, 3, 8, 2, 7, 1, 9, 9, 3, 2, 7)`
 
 
 ```{r}
@@ -222,7 +220,7 @@ The points below relate to the GitHub component reviewed this week. Please follo
 
 ```{r}
 # BEGIN SOLUTION
-q12.2 <- NULL ##paste your link here (as a string)
+q12.2 <- NULL ##paste your link here (as a string that must include the pattern github.com)
 # END SOLUTION
 ```
 
@@ -230,7 +228,7 @@ q12.2 <- NULL ##paste your link here (as a string)
 
 ```{r}
 # BEGIN SOLUTION
-q12.3 <- NULL ##paste your link here (as a string)
+q12.3 <- NULL ##paste your link here (as a string that must include the pattern github.com)
 # END SOLUTION
 ```
 
@@ -239,7 +237,7 @@ q12.3 <- NULL ##paste your link here (as a string)
 
 ```{r}
 # BEGIN SOLUTION
-q12.4 <- NULL ##paste your link here (as a string)
+q12.4 <- NULL ##paste your link here (as a string that must include the pattern github.com)
 # END SOLUTION
 ```
 
@@ -248,7 +246,7 @@ q12.4 <- NULL ##paste your link here (as a string)
 
 ```{r}
 # BEGIN SOLUTION
-q12.5 <- NULL ##paste your link here (as a string)
+q12.5 <- NULL ##paste your link here (as a string that must include the pattern github.com)
 # END SOLUTION
 ```
 
@@ -257,7 +255,7 @@ q12.5 <- NULL ##paste your link here (as a string)
 
 ```{r}
 # BEGIN SOLUTION
-q12.6 <- NULL ##paste your link here (as a string)
+q12.6 <- NULL ##paste your link here (as a string that must include the pattern github.com)
 # END SOLUTION
 ```
 
