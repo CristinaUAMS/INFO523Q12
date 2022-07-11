@@ -32,7 +32,7 @@ The following “feedback” will update each time you render your homework.
 
        ⌛ Auto-grade 0 %,  0 / 10 points
 
-    Updated: 2022-07-11 10:07:04 MST
+    Updated: 2022-07-11 10:30:29 MST
 
 ### Objectives
 
@@ -70,10 +70,6 @@ this homework:
     specific R packages:
     <a href="https://www.rstudio.com/resources/cheatsheets/" class="uri">https://www.rstudio.com/resources/cheatsheets/</a>
 
--   **Datasets**: The following website has access to the relevant
-    datasets from the recommended textbook:
-    <a href="https://book.huihoo.com/introduction-to-statistical-learning/data.html" class="uri">https://book.huihoo.com/introduction-to-statistical-learning/data.html</a>
-
 ### Scores and grading policies
 
 There is avery basic auto-grading system implemented at the end of the
@@ -98,13 +94,12 @@ Syllabus). By the deadline, you should turn in a a `RMD` file (this
 file) **and** a rendered `HTML` (hint: knit your `rmd`; link:
 <a href="https://rmarkdown.rstudio.com/lesson-9.html" class="uri">https://rmarkdown.rstudio.com/lesson-9.html</a>).
 Answers to each question should be in the relevant block of code (see
-below). The instructor won’t render your submission. **Re-name your file
-to `lastname_Hw1.RMD` before submitting to your repo**. Make sure that
-you can correctly render your submission without errors before turning
-anything in. If a given block of code is causing issues and you didn’t
-get to fix it, please use the in the relevant block and add comments.
-**This assignment must be submitted through our GitHub Classroom before
-the deadline.**
+below). The instructor won’t render your submission. **There’s no need
+to rename your submission**. Make sure that you can correctly render
+your submission without errors before turning anything in. If a given
+block of code is causing issues and you didn’t get to fix it, please use
+the in the relevant block and add comments. **This assignment must be
+submitted through our GitHub Classroom before the deadline.**
 
 ### Time commitment
 
