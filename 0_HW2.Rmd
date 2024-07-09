@@ -107,7 +107,6 @@ How would you get the following output?
 df <- data.frame(Age, Name, Gender) |>
   filter(Gender == "M")
 q2 <- knitr::kable(df, 
-                   format = "pipe", 
                    row.names = TRUE,
                    padding = 1,
                    align = NULL)
@@ -207,7 +206,6 @@ q9.function <- function(input){
 q9 <- q9.function("3201 in")
 q9
 
-# END SOLUTION
 ```
 
 #### Question 10
@@ -225,9 +223,11 @@ Answer the following questions by storing your response in a named list with onl
 - How many individuals have four or less vacation days? (name in list=`less4Vd`)
 
 ```{r}
-# BEGIN SOLUTION
-q10 <- list(NA, NA, NA) ##Your final answer
-# END SOLUTION
+
+q10 <- list("totalInd"=length(vd), 
+            "totalVd"=sum(unlist(vd)), 
+            "less4Vd"=sum(vd<=4))
+q10
 ```
 
 

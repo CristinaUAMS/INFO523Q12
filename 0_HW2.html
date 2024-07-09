@@ -509,7 +509,6 @@ Gender &lt;- c(&quot;M&quot;, &quot;F&quot;, &quot;F&quot;, &quot;M&quot;)</code
 <pre class="r"><code>df &lt;- data.frame(Age, Name, Gender) |&gt;
   filter(Gender == &quot;M&quot;)
 q2 &lt;- knitr::kable(df, 
-                   format = &quot;pipe&quot;, 
                    row.names = TRUE,
                    padding = 1,
                    align = NULL)
@@ -629,7 +628,6 @@ Your function must be called <code>q9.function</code>. Use
 q9 &lt;- q9.function(&quot;3201 in&quot;)
 q9</code></pre>
 <pre><code>## [1] 8130.54</code></pre>
-<pre class="r"><code># END SOLUTION</code></pre>
 </div>
 <div id="question-10" class="section level4">
 <h4>Question 10</h4>
@@ -647,9 +645,18 @@ list=<code>totalVd</code>)</li>
 <li>How many individuals have four or less vacation days? (name in
 list=<code>less4Vd</code>)</li>
 </ul>
-<pre class="r"><code># BEGIN SOLUTION
-q10 &lt;- list(NA, NA, NA) ##Your final answer
-# END SOLUTION</code></pre>
+<pre class="r"><code>q10 &lt;- list(&quot;totalInd&quot;=length(vd), 
+            &quot;totalVd&quot;=sum(unlist(vd)), 
+            &quot;less4Vd&quot;=sum(vd&lt;=4))
+q10</code></pre>
+<pre><code>## $totalInd
+## [1] 17
+## 
+## $totalVd
+## [1] 91
+## 
+## $less4Vd
+## [1] 9</code></pre>
 </div>
 <div id="question-11" class="section level4">
 <h4>Question 11</h4>
@@ -724,7 +731,7 @@ q12.6 &lt;- NULL ##paste your link here (as a string that must include the patte
 ✅ Question 7 - Correct!
 ✅ Question 8 - Correct!
 ✅ Question 9 - Correct!
-❌ Question 10 - Potentially incorrect
+✅ Question 10 - Correct!
 ❌ Question 11.1 - Potentially incorrect
 ❌ Question 11.2 - Potentially incorrect
 ❌ Question 12.2 - Provide a link
@@ -734,8 +741,8 @@ q12.6 &lt;- NULL ##paste your link here (as a string that must include the patte
 ❌ Question 12.6 - Provide a link
 
 
-   ⌛ Auto-grade 47.06 %,  4.71 / 10 points</code></pre>
-<pre><code>Updated: 2024-07-08 22:13:46 MST</code></pre>
+   ⌛ Auto-grade 52.94 %,  5.29 / 10 points</code></pre>
+<pre><code>Updated: 2024-07-08 22:20:12 MST</code></pre>
 </div>
 </div>
 
