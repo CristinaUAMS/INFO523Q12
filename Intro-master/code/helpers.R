@@ -1,3 +1,5 @@
+## Helper functions are important to learn! 
+
 cv <- function(data, fit, K = nrow(data), rmse.cv = FALSE) {
   
   # assign data to folds
@@ -20,6 +22,7 @@ cv <- function(data, fit, K = nrow(data), rmse.cv = FALSE) {
   mean(mses, na.rm = TRUE)
 }
 
+## Checking for good input types is valuable!
 mse <- function(mod, data = NULL) {
   
   if (is.null(data)) return(mean(resid(mod)^2))
