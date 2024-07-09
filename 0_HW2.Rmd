@@ -52,6 +52,19 @@ Please reach out if you’re taking more than ~18h (~9h for the first week) to c
 First, please go over the relevant readings for this week. Second, if you’re still struggling with any of the questions, do some independent research (e.g. stackoverflow is a wonderful resource). Don’t forget that your classmates will also be working on the same questions - reach out for help (check under the Discussion forum for folks looking to interact with other students in this class or start your own thread). Finally, the instructor will be happy to answer any questions during office hours. You can reach out to me by email (cromanpa94@arizona.edu) or simply schedule a 15 minute meeting through **Calendly** (https://calendly.com/cromanpa/15min). **Do not forget that the instructor holds office hours 3 times a week!!**
 
 
+```{r setup}
+if (!require("pacman")) 
+  install.packages("pacman")
+
+# use this line for installing/loading
+pacman::p_load(ascii,
+               dplyr,
+               kableExtra,
+               pander)
+
+
+```
+
 ---------------
 # Questions
 
@@ -66,8 +79,8 @@ x <- c(3, 5.1, 3.2, 7, 2, 9, 4, 21)
 Create a logical vector indicating which elements are `< 4`.
 
 ```{r}
-
 q1 <- (x < 4) 
+q1
 ```
 
 #### Question 2
@@ -90,7 +103,14 @@ How would you get the following output?
 
 ```{r}
 # BEGIN SOLUTION
-q2 <- NULL #Your final answer - should produce the final table
+df <- data.frame(Age, Name, Gender) |>
+  filter(Gender == "M")
+q2 <- knitr::kable(df, 
+                   format = "pipe", 
+                   row.names = TRUE,
+                   padding = 1,
+                   align = NULL)
+q2
 # END SOLUTION
 ```
 

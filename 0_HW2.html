@@ -451,6 +451,14 @@ hours. You can reach out to me by email (<a href="mailto:cromanpa94@arizona.edu"
 meeting through <strong>Calendly</strong> (<a href="https://calendly.com/cromanpa/15min" class="uri">https://calendly.com/cromanpa/15min</a>). <strong>Do not
 forget that the instructor holds office hours 3 times a
 week!!</strong></p>
+<pre class="r"><code>if (!require(&quot;pacman&quot;)) 
+  install.packages(&quot;pacman&quot;)</code></pre>
+<pre><code>## Loading required package: pacman</code></pre>
+<pre class="r"><code># use this line for installing/loading
+pacman::p_load(ascii,
+               dplyr,
+               kableExtra,
+               pander)</code></pre>
 <hr />
 </div>
 </div>
@@ -462,7 +470,9 @@ week!!</strong></p>
 <pre class="r"><code>x &lt;- c(3, 5.1, 3.2, 7, 2, 9, 4, 21)</code></pre>
 <p>Create a logical vector indicating which elements are
 <code>&lt; 4</code>.</p>
-<pre class="r"><code>q1 &lt;- (x &lt; 4) </code></pre>
+<pre class="r"><code>q1 &lt;- (x &lt; 4) 
+q1</code></pre>
+<pre><code>## [1]  TRUE FALSE  TRUE FALSE  TRUE FALSE FALSE FALSE</code></pre>
 </div>
 <div id="question-2" class="section level4">
 <h4>Question 2</h4>
@@ -496,8 +506,39 @@ Gender &lt;- c(&quot;M&quot;, &quot;F&quot;, &quot;F&quot;, &quot;M&quot;)</code
 </tbody>
 </table>
 <pre class="r"><code># BEGIN SOLUTION
-q2 &lt;- NULL #Your final answer - should produce the final table
-# END SOLUTION</code></pre>
+df &lt;- data.frame(Age, Name, Gender) |&gt;
+  filter(Gender == &quot;M&quot;)
+q2 &lt;- knitr::kable(df, 
+                   format = &quot;pipe&quot;, 
+                   row.names = TRUE,
+                   padding = 1,
+                   align = NULL)
+q2</code></pre>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th>Age</th>
+<th>Name</th>
+<th>Gender</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>31</td>
+<td>James</td>
+<td>M</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>21</td>
+<td>Mathew</td>
+<td>M</td>
+</tr>
+</tbody>
+</table>
+<pre class="r"><code># END SOLUTION</code></pre>
 </div>
 <div id="question-3" class="section level4">
 <h4>Question 3</h4>
@@ -669,7 +710,7 @@ q12.6 &lt;- NULL ##paste your link here (as a string that must include the patte
 
 
    ⌛ Auto-grade 5.88 %,  0.59 / 10 points</code></pre>
-<pre><code>Updated: 2024-07-08 17:02:34 MST</code></pre>
+<pre><code>Updated: 2024-07-08 19:12:19 MST</code></pre>
 </div>
 </div>
 
