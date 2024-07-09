@@ -120,14 +120,14 @@ q2
 Use R to count the number of `NA`s in the following vector:
 
 ```{r}
-c(34, 56, NA, 87, NA, 4, 77, NA, 21, NA, 39)
+num_list <- c(34, 56, NA, 87, NA, 4, 77, NA, 21, NA, 39)
 ```
 
 
 ```{r}
-# BEGIN SOLUTION
-q3 <- NULL #Your final answer
-# END SOLUTION
+
+q3 <- sum(is.na(num_list))
+q3
 ```
 
 
