@@ -12,7 +12,7 @@ The following “feedback” will update each time you render your homework.
     ✅ Question 1 - Correct!
     ❌ Question 2 - Potentially incorrect
     ✅ Question 3 - Correct!
-    ❌ Question 4 - Potentially incorrect
+    ✅ Question 4 - Correct!
     ❌ Question 5 - Potentially incorrect
     ❌ Question 6 - Potentially incorrect
     ❌ Question 7 - Potentially incorrect
@@ -28,9 +28,9 @@ The following “feedback” will update each time you render your homework.
     ❌ Question 12.6 - Provide a link
 
 
-       ⌛ Auto-grade 11.76 %,  1.18 / 10 points
+       ⌛ Auto-grade 17.65 %,  1.76 / 10 points
 
-    Updated: 2024-07-08 19:15:51 MST
+    Updated: 2024-07-08 19:18:34 MST
 
 ### Objectives
 

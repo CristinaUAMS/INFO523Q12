@@ -102,7 +102,7 @@ How would you get the following output?
 
 
 ```{r}
-# BEGIN SOLUTION
+
 df <- data.frame(Age, Name, Gender) |>
   filter(Gender == "M")
 q2 <- knitr::kable(df, 
@@ -111,7 +111,7 @@ q2 <- knitr::kable(df,
                    padding = 1,
                    align = NULL)
 q2
-# END SOLUTION
+
 ```
 
 
@@ -136,9 +136,9 @@ q3
 If `x <- c("ss", "aa", "ff", "kk", "bb")`, what will be the third value in the index vector operation `x[c(2, 4, 4)]`?
 
 ```{r}
-# BEGIN SOLUTION
-q4 <- NULL #Your final answer
-# END SOLUTION
+x <- c("ss", "aa", "ff", "kk", "bb")
+q4 <- x[4]
+q4
 ```
 
 
