@@ -160,9 +160,9 @@ Write an `R` expression that will return the positions of 3 and 7 in the vector 
 
 
 ```{r}
-# BEGIN SOLUTION
-q6 <- NULL #Your final answer
-# END SOLUTION
+x <- c(2, 3, 8, 2, 7, 1, 9, 9, 3, 2, 7)
+q6 <- which(x %in% c(3,7))
+q6
 ```
 
 #### Question 7
