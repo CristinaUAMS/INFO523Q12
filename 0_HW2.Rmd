@@ -147,10 +147,12 @@ q4
 What will be the output for the R expression `(c(FALSE, TRUE)) || (c(TRUE, TRUE))`? Briefly explain the logic of your result. Please use the `?Logic` command in `R` to find information.
 
 ```{r}
-# BEGIN SOLUTION
-q5 <- NULL #Your final answer
-# END SOLUTION
+
+q5 <- (c(FALSE, TRUE)) | (c(TRUE, TRUE)) 
+q5 <- TRUE
 ```
+Using the or operator, True or False is true and True or True is true. So the answer is a vector of length 2 with both values (here, true and true) then evaluated with the logical or for a final value of TRUE.
+
 
 #### Question 6
 
