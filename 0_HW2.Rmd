@@ -236,10 +236,22 @@ q10
 Create a data.frame with the information presented in Question 2. Next, add a new column named `gender01`, with `M` in the `gender` column coded as `0` and `F` as `1`. Answer this question using (1) `for` and (2) `ifelse` (or any two alternative approaches). 
 
 ```{r}
-# BEGIN SOLUTION
-q11.1 <- NULL ##Your final answer
-q11.2 <- NULL ##Your final answer
-# END SOLUTION
+df11 <- data.frame(Age, Name, Gender)
+
+
+
+q11.1 <- df11 |> 
+  mutate(
+  gender01 = case_when(Gender == "M" ~ 0,
+                       TRUE ~ 1)
+  ) 
+q11.2 <- df11 |>
+  mutate(
+    gender01 = if_else(Gender == "M", 0, 1)
+  )
+q11.1
+
+q11.2
 ```
 
 
