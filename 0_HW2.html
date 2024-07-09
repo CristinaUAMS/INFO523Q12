@@ -598,9 +598,21 @@ q7</code></pre>
 <p>Let <code>x &lt;- list(a=5:10, c=&quot;Ab&quot;, d=&quot;AA&quot;)</code>, write an R
 statement to add a new item <code>z = &quot;NewItem&quot;</code> to the list
 <code>x</code>.</p>
-<pre class="r"><code># BEGIN SOLUTION
-q8 &lt;- NULL #Your final answer
-# END SOLUTION</code></pre>
+<pre class="r"><code>x &lt;- list(a=5:10, c=&quot;Ab&quot;, d=&quot;AA&quot;)
+x$z &lt;- &quot;NewItem&quot;
+q8 &lt;- x
+q8</code></pre>
+<pre><code>## $a
+## [1]  5  6  7  8  9 10
+## 
+## $c
+## [1] &quot;Ab&quot;
+## 
+## $d
+## [1] &quot;AA&quot;
+## 
+## $z
+## [1] &quot;NewItem&quot;</code></pre>
 </div>
 <div id="question-9" class="section level4">
 <h4>Question 9</h4>
@@ -704,7 +716,7 @@ q12.6 &lt;- NULL ##paste your link here (as a string that must include the patte
 ✅ Question 5 - Correct!
 ✅ Question 6 - Correct!
 ✅ Question 7 - Correct!
-❌ Question 8 - Potentially incorrect
+✅ Question 8 - Correct!
 ❌ Question 9 - Potentially incorrect
 ❌ Question 10 - Potentially incorrect
 ❌ Question 11.1 - Potentially incorrect
@@ -716,8 +728,8 @@ q12.6 &lt;- NULL ##paste your link here (as a string that must include the patte
 ❌ Question 12.6 - Provide a link
 
 
-   ⌛ Auto-grade 35.29 %,  3.53 / 10 points</code></pre>
-<pre><code>Updated: 2024-07-08 20:01:29 MST</code></pre>
+   ⌛ Auto-grade 41.18 %,  4.12 / 10 points</code></pre>
+<pre><code>Updated: 2024-07-08 20:10:09 MST</code></pre>
 </div>
 </div>
 

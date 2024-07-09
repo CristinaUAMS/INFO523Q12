@@ -185,9 +185,10 @@ q7
 Let `x <- list(a=5:10, c="Ab", d="AA")`, write an R statement to add a new item `z = "NewItem"` to the list `x`.
 
 ```{r}
-# BEGIN SOLUTION
-q8 <- NULL #Your final answer
-# END SOLUTION
+x <- list(a=5:10, c="Ab", d="AA")
+x$z <- "NewItem"
+q8 <- x
+q8
 ```
 
 
