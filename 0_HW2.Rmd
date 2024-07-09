@@ -60,7 +60,8 @@ if (!require("pacman"))
 pacman::p_load(ascii,
                dplyr,
                kableExtra,
-               pander)
+               pander,
+               stringr)
 
 
 ```
@@ -197,9 +198,15 @@ q8
 Create a function to convert inches to centimeters. Assume the input data are in inches and you want to return the same data converted to cm. Your function must be called `q9.function`. Use `q9` to test your function with `3201 in`.
 
 ```{r}
-# BEGIN SOLUTION
-q9.function <- NULL #Your function answer
-q9 <- NULL #Your final answer
+
+q9.function <- function(input){
+  inches <- as.numeric(str_extract(input, "\\d*"))
+  return(inches * 2.54)
+}
+
+q9 <- q9.function("3201 in")
+q9
+
 # END SOLUTION
 ```
 
