@@ -171,9 +171,13 @@ If `a <- list ("x"=2, "y"=15, "z"=84)`, how would you estimate the sum of all el
 
 
 ```{r}
-# BEGIN SOLUTION
-q7 <- NULL #Your final answer
-# END SOLUTION
+x <- 2
+y <- 15
+z <- 84
+
+a <- list(x, y, z)
+q7 <-sum(unlist(a))
+q7
 ```
 
 #### Question 8
