@@ -2,8 +2,8 @@
 title:  'Homework 2'
 subtitle: 'INFO 523'
 author:
-- name: Student -  [Your name]
-  affiliation: [Your affiliation]
+- name: Student -  Cristina Lafuente
+  affiliation: University of Arizona
 - name: Instructor -  Cristian Román-Palacios
   affiliation: School of Information, University of Arizona, Tucson, AZ
 tags: [R, RStudio, HW2]
@@ -66,9 +66,8 @@ x <- c(3, 5.1, 3.2, 7, 2, 9, 4, 21)
 Create a logical vector indicating which elements are `< 4`.
 
 ```{r}
-# BEGIN SOLUTION
-q1 <- NULL #Replace NULL with your final answer
-# END SOLUTION
+
+q1 <- (x < 4) 
 ```
 
 #### Question 2
